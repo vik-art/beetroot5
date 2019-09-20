@@ -53,8 +53,12 @@ footer {
     width: 50%;
     height: 50px;
 }
-li:hover {background-color: royalblue}
-input:checked+label {text-decoration: line-through;
+li:hover {background-color: #4a4f56;
+border-bottom: 2px solid white;
+border-top: 2px solid white;
+}
+input:checked+label {
+    text-decoration: line-through;
 }
 li:active {
-    background-color: red;}
+    background-color: #EB7E7F;}
