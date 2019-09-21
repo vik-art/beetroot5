@@ -2,7 +2,7 @@ header {
     color: #EB7E7F;
     background-color: #4a4f56;
     text-align: center;
-    padding: 10px,0;
+    padding: 10px 0;
 }
 header h1 {
     font-size: 2,5em;
@@ -54,10 +54,10 @@ footer {
     height: 50px;
 }
 li:hover {background-color: #4a4f56;
-border-bottom: 2px solid white;
-border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }
-input:checked+label {
+input:checked label {
     text-decoration: line-through;
 }
 li:active {
